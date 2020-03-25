@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/cssanimation/cssanimation.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background: #000000;
+    }
+    img {
+      object-fit: cover;
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div data-scrolly-down="blurInTop" align="center">
+    <img src="https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&auto=format&fit=crop&w=3066&q=80" />
+  </div>
+
+  <div style="height: 3px; background: #000000;"></div>
+
+  <div data-scrolly-down="blurInTop" align="center">
+    <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=2560&q=80" />
+  </div>
+
+  <div style="height: 3px; background: #000000;"></div>
+
+  <div data-scrolly-down="blurInTop" align="center">
+    <img src="https://images.unsplash.com/photo-1537531579368-1af433cf6f06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=2100&q=80" />
+  </div>
+
+  <script type="text/javascript" src="assets/scrolly/scrolly.js"></script>
+  <script>
+    window.onload = function() {
+      scrolly();
+    };
+  </script>
+</body>
+</html>

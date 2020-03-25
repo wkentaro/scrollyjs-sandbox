@@ -1,0 +1,6 @@
+[submodule "assets/cssanimation"]
+	path = assets/cssanimation
+	url = https://github.com/yesiamrocks/cssanimation.io.git
+[submodule "assets/scrolly"]
+	path = assets/scrolly
+	url = https://github.com/yesiamrocks/scrolly.js
